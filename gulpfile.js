@@ -18,7 +18,7 @@ var gulp = require('gulp'),
 var customOpts = {
     entries: ['./src/index.js'],
     debug: false,
-    standalone: 'angular-echo'
+    standalone: 'echoapi'
 };
 var opts = assign({}, customOpts);
 var b = browserify(opts);
